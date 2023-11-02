@@ -1,0 +1,43 @@
+.active {
+  background: transparent !important;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: rgb(255, 106, 0) !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: rgb(255, 106, 0);
+}
+
+@media (max-width: 991px) {
+  .active {
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: rgb(255,255,255) !important;
+  }
+}
+
+.star-light.star-light-custom:after {
+  color: #fff;
+  background: rgb(238, 9, 121) !important;
+  padding-bottom: 20px;
+}
+
+.btn:hover {
+  color: rgb(0,0,0) !important;
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+
+@media (min-width: 991px) {
+  .masthead {
+    padding-top: 15rem !important;
+  }
+}
+
